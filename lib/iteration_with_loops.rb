@@ -10,7 +10,7 @@ while row_index < src.count do
     # if minimum_element == nil || src[row_index][element_index] < minimum_element
     #   minimum_element = src[row_index][element_index]
     # end
-    minimum_element = src[row_index].min
+    minimum_element = src[row_index].min  #This is the least complx solution but came after the double loop solution
     #element_index += 1
   #end
   minimum_array << minimum_element

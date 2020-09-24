@@ -15,5 +15,5 @@ while row_index < src.count do
   minimum_array << minimum_element
   row_index += 1
 end
-smallest_number
+minimum_array
 end

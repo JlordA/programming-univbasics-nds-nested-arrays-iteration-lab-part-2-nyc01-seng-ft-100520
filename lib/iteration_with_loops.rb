@@ -7,7 +7,7 @@ while row_index < src.count do
   element_index = 0
   minimum_element = "".to_i
   while element_index < src[row_index].count do
-    if src[row_index][element_index].min
+    if src[row_index][element_index][0].min
       minimum_element = src[row_index][element_index]
     end
     element_index += 1
